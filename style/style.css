@@ -2306,12 +2306,24 @@ details.collapse summary::-webkit-details-marker {
     margin-right: auto;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:grid {
     display: grid;
   }
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
 
@@ -2354,6 +2366,10 @@ details.collapse summary::-webkit-details-marker {
 
   .lg\:p-28 {
     padding: 7rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-5xl {
