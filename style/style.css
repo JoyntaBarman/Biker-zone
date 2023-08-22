@@ -2360,16 +2360,8 @@ details.collapse summary::-webkit-details-marker {
     gap: 6rem;
   }
 
-  .lg\:gap-4 {
-    gap: 1rem;
-  }
-
   .lg\:p-28 {
     padding: 7rem;
-  }
-
-  .lg\:text-left {
-    text-align: left;
   }
 
   .lg\:text-5xl {
